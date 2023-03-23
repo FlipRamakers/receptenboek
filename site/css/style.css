@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.bovenkant {
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+main {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 75px;
+    background-color: black;
+}
+
+.flex1 {
+    order: 1;
+    flex: 1 1 7em;
+    display: block;
+    padding: 25px;
+}
