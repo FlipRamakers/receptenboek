@@ -10,7 +10,6 @@
 </head>
  
 <body>
-    <!--naviagtiebalk waarin je kan wisselen tussen verschillende paginas -->
     <div class="nav">
         <ul>
             <li class="flex1"><a href="index.php">Home</a></li>

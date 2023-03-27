@@ -4,9 +4,10 @@
 }
 
 main {
-    width: 400px;
-    margin-left: 560px;
-
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 100%;
+    text-align: center;
 }
 
 .nav {
@@ -29,9 +30,7 @@ header {
 
 }
 
-main {
-    text-align: center;
-}
+main {}
 
 ul {
     list-style-type: none;
@@ -66,22 +65,36 @@ ul {
     margin-right: 100px;
 }
 
+.productfotos{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
 .blokinfo {
-    border: 10px;
+    border-color: rgb(0, 0, 0);
+    border: 3px;
     border-style: solid;
     background-color: white;
-    border-color: rgb(0, 0, 0);
-
-
 }
 
 .fotovaneten {
-    height: 250px;
-    width: 300px
+    height: 350px;
+    width: 400px
 }
 
 .footer {
     height: 100px;
     background-color: black;
     color: white;
+    list-style-type: none;
+    width: 100%;
+}
+
+.footer li {
+    text-align: center;
+    display: inline-flex;
+    width: 8%;
+    padding: 35px;
 }

@@ -10,8 +10,8 @@
 
 <body>
     <div class="footer">
-        <div>Flip Ramakers</div>
-        <div>klas: sd1a2</div>
+        <lu>Flip Ramakers</lu>
+        <lu>klas: sd1a2</lu>
     </div>
 </body>
 

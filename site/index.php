@@ -22,7 +22,7 @@ $all_products = mysqli_fetch_all($result, MYSQLI_ASSOC);
 </head>
 
 <body>
-
+    <!--naviagtiebalk waarin je kan wisselen tussen verschillende paginas -->
     <?php require "header.php" ?>
     <?php require "nav.php" ?>
     <main>

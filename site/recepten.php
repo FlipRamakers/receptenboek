@@ -21,25 +21,23 @@ $recepten = mysqli_fetch_all($result, MYSQLI_ASSOC);
 </head>
 
 <body>
+    <!--naviagtiebalk waarin je kan wisselen tussen verschillende paginas -->
     <?php require "header.php" ?>
     <?php require "nav.php" ?>
     <main>
 
-        <ul class="productfotos">
+        <div class="productfotos">
             <?php foreach ($recepten as $recept) : ?>
                 <div class="blokinfo">
                     <a href="recept.php?id=<?php echo $recept["recept_nummer"]; ?>">
-                        <div class="fotovaneten">
-                            <li><img src="images/<?php echo $recept["foto"] ?>">
-                        </div>
-                        <p><?php echo $recept["titel"] ?></p>
-                        <p><?php echo $recept["duur"] ?></p>
-                        </li>
+                        <img src="images/<?php echo $recept["foto"] ?>" class="fotovaneten">
+                        <p>
+                            <?php echo $recept["titel"] ?>
+                        </p>
+                    </a>
                 </div>
             <?php endforeach  ?>
-        </ul>
-
-
+        </div>
     </main>
     <?php require "footer.php" ?>
 
