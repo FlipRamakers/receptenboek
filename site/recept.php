@@ -3,7 +3,7 @@ require 'databse.php';
 
 $nummer = $_GET["id"];
 
-$sql = "SELECT * FROM Filipijnen WHERE 	recept_nummer  = $nummer";
+$sql = "SELECT * FROM Gerecht WHERE 	recept_nummer  = $nummer";
 
 $result = mysqli_query($conn, $sql);
 

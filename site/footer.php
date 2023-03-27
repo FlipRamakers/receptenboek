@@ -10,8 +10,13 @@
 
 <body>
     <div class="footer">
-        <li>Flip Ramakers</li>
-        <li>klas: sd1a2</li>
+        <div class="footernaam">
+            <li>Flip Ramakers</li>
+            <li>klas: SD1A2</li>
+        </div>
+        <div class="fotofooter">
+            <img src="images/filipijnsevlag.png">
+        </div>
     </div>
 </body>
 

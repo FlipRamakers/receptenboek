@@ -2,7 +2,7 @@
 
 require 'databse.php';
 
-$sql = "SELECT * FROM Filipijnen";
+$sql = "SELECT * FROM Gerecht";
 
 $result = mysqli_query($conn, $sql);
 
