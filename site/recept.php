@@ -23,7 +23,31 @@ $recept = mysqli_fetch_assoc($result);
 </head>
 
 <body>
-dadadad
+    <!--naviagtiebalk waarin je kan wisselen tussen verschillende paginas -->
+    <?php require "header.php" ?>
+    <?php require "nav.php" ?>
+
+    <div class="productdetails">
+
+        <p>
+        <h1><?php echo $recept["titel"] ?></h1>
+        </p>
+        <img src="images/<?php echo $recept["foto"] ?>" class="fotovaneten">
+        <p>
+            <?php echo $recept["duur"] ?>
+        </p>
+        <p>
+            moeilijkheidsgraad = <?php echo $recept["moeilijkheidsgraad"] ?>
+        </p>
+        <p>
+            <?php echo $recept["aantal_ingredienten"] ?>
+        </p>
+        <p>
+            <?php echo $recept["menugang"] ?>
+        </p>
+
+    </div>
+    <?php require "footer.php" ?>
 </body>
 
 </html>
