@@ -11,16 +11,19 @@
 <body>
     <div class="footer">
         <div class="footernaam">
-            <li>Flip Ramakers</li>
-            <li>klas: SD1A2</li>
+            <h2><li>Flip Ramakers</li></h2>
+            <h3><li>klas: SD1A2</li></h3>
         </div>
         
         <div class="fotofooter">
             <img src="images/filipijnsevlag.png">
         </div>
+
         <div class="socials">
             <li><img src="images/instagram3.png"></li>
             <li>flip_ramakers</li>
+            <li><img src="images/snapchatzwart1.png"> </li>
+            <li>flipramakers</li>
         </div>
         
     </div>

@@ -93,7 +93,7 @@ ul {
     display: flex;
 }
 
-.footernaam{
+.footernaam {
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -107,8 +107,16 @@ ul {
     justify-content: right;
 }
 
+
+.socials {
+    display: flex;
+    justify-content: right;
+    padding-top: 35px;
+    margin-left: 50px;
+    flex-direction: row;
+}
+
 .socials img {
-height: 50px;
-width: 50px;
-display: flex;
+    height: 50px;
+    width: 50px;
 }
