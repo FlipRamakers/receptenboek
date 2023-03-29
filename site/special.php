@@ -2,6 +2,9 @@
 require 'database.php';
 
 $sql1 = "SELECT * FROM Gerecht WHERE aantal_ingredienten = (SELECT MAX(aantal_ingredienten) FROM Gerecht);";
+$result1 = mysqli_query($conn, $sql1);
+$recept1 = mysqli_fetch_assoc($result1);
+
 
 ?>
 
