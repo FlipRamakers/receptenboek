@@ -1,3 +1,9 @@
+<?php
+require 'database.php';
+
+$sql1 = "SELECT * FROM Maleisische WHERE aantal_ingredienten = (SELECT MAX(aantal_ingredienten) FROM Maleisische);";
+
+
 <!DOCTYPE html>
 <html lang="en">
 
