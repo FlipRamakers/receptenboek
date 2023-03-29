@@ -53,13 +53,13 @@ $recept3 = mysqli_fetch_assoc($result3);
                     </div>
                 </div>
                 <div class="lijst_onderelkaar">
-                    <h1>Welke recept duurt het langst</h1>
+                    <h1>Welke recept duurt het langst:</h1>
                     <div class="row">
                         <div class="niks">
                             <div>
                                 <ul>
                                     <li> <?php echo $recept2["titel"] ?></li>
-                                    <li> <?php echo $recept2["tijdsduur"] ?> minuten</li>
+                                    <li> , <?php echo $recept2["duur"] ?> minuten</li>
                                 </ul>
                             </div>
                         </div>
@@ -76,7 +76,7 @@ $recept3 = mysqli_fetch_assoc($result3);
                         <div class="niks">
                             <ul>
                                 <li> <?php echo $recept3["titel"] ?></li>
-                                <li> <?php echo $recept3["moeilijkheidsgraad"] ?> moeilijkheidsgraad</li>
+                                <li> , moeilijkheidsgraad<?php echo $recept3["moeilijkheidsgraad"] ?> </li>
                             </ul>
                         </div>
                         <div class="naareind">
