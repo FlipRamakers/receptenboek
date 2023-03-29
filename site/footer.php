@@ -20,9 +20,9 @@
         </div>
 
         <div class="socials">
-            <li><img src="images/instagram3.png"></li>
+            <li><a href="https://www.instagram.com/flip_ramakers/"><img src="images/instagram3.png"></a></li>
             <li><a href="https://www.instagram.com/flip_ramakers/">flip_ramakers</a></li>
-            <li><img src="images/snapchatzwart1.png"> </li>
+            <li><a href="https://www.snapchat.com/add/flipramakers?share_id=RhqomFwiTcyaRe7B/Efj7A&locale=nl_NL "><img src="images/snapchatzwart1.png"></a></li>
             <li><a href="https://www.snapchat.com/add/flipramakers?share_id=RhqomFwiTcyaRe7B/Efj7A&locale=nl_NL ">flipramakers</a></li>
         </div>
         
