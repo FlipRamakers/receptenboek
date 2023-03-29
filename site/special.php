@@ -5,6 +5,7 @@ $sql1 = "SELECT * FROM Gerecht WHERE aantal_ingredienten = (SELECT MAX(aantal_in
 $result1 = mysqli_query($conn, $sql1);
 $recept1 = mysqli_fetch_assoc($result1);
 
+$sql2 = "SELECT * FROM Maleisische WHERE tijdsduur = (SELECT MAX(tijdsduur) FROM Maleisische);";
 
 ?>
 
