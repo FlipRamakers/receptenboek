@@ -42,7 +42,7 @@ $recept = mysqli_fetch_assoc($result);
         <p>
             Aantal ingredienten = <?php echo $recept["aantal_ingredienten"] ?>
         </p>
-        <p>
+        <p class="receptbeschrijving">
             <?php echo $recept["menugang"] ?>
         </p>
 
