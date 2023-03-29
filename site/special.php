@@ -24,6 +24,7 @@ $recept3 = mysqli_fetch_assoc($result3);
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css?v=<?php echo time(); ?>">
     <title>Document</title>
 </head>
 
@@ -41,7 +42,7 @@ $recept3 = mysqli_fetch_assoc($result3);
                             <div>
                                 <ul>
                                     <li> <?php echo $recept1["titel"] ?></li>
-                                    <li>  , aantal ingrediënten <?php echo $recept1["aantal_ingredienten"] ?> </li>
+                                    <li> , aantal ingrediënten <?php echo $recept1["aantal_ingredienten"] ?> </li>
                                 </ul>
                             </div>
                         </div>
@@ -88,7 +89,7 @@ $recept3 = mysqli_fetch_assoc($result3);
                 </div>
             </div>
         </div>
-        
+
     </main>
     <?php require "footer.php" ?>
 </body>

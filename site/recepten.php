@@ -31,10 +31,10 @@ $recepten = mysqli_fetch_all($result, MYSQLI_ASSOC);
                 <div class="blokinfo">
                     <a href="recept.php?id=<?php echo $recept["recept_nummer"]; ?>">
                         <img src="images/<?php echo $recept["foto"] ?>" class="fotovaneten">
+                    </a>
                         <p>
                             <?php echo $recept["titel"] ?>
                         </p>
-                    </a>
                 </div>
             <?php endforeach  ?>
         </div>
