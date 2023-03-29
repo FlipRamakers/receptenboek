@@ -76,7 +76,7 @@ $recept3 = mysqli_fetch_assoc($result3);
                         <div class="niks">
                             <ul>
                                 <li> <?php echo $recept3["titel"] ?></li>
-                                <li> , moeilijkheidsgraad<?php echo $recept3["moeilijkheidsgraad"] ?> </li>
+                                <li> , moeilijkheidsgraad <?php echo $recept3["moeilijkheidsgraad"] ?> </li>
                             </ul>
                         </div>
                         <div class="naareind">
@@ -88,7 +88,7 @@ $recept3 = mysqli_fetch_assoc($result3);
                 </div>
             </div>
         </div>
-            
+        
     </main>
     <?php require "footer.php" ?>
 </body>
