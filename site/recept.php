@@ -40,7 +40,7 @@ $recept = mysqli_fetch_assoc($result);
             moeilijkheidsgraad = <?php echo $recept["moeilijkheidsgraad"] ?>
         </p>
         <p>
-            <?php echo $recept["aantal_ingredienten"] ?>
+            Aantal ingredienten = <?php echo $recept["aantal_ingredienten"] ?>
         </p>
         <p>
             <?php echo $recept["menugang"] ?>

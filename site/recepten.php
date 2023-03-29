@@ -39,7 +39,7 @@ $recepten = mysqli_fetch_all($result, MYSQLI_ASSOC);
             <?php endforeach  ?>
         </div>
     </main>
-    <?php require "footer.php" ?>
+ 
 
 
 </body>

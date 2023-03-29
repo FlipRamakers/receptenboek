@@ -30,7 +30,6 @@ header {
 
 }
 
-main {}
 
 ul {
     list-style-type: none;
@@ -104,19 +103,23 @@ ul {
 
 .fotofooter {
     display: flex;
-    justify-content: right;
+    -ms-flex-align: center;
 }
 
 
 .socials {
     display: flex;
     justify-content: right;
-    padding-top: 35px;
-    margin-left: 50px;
+    padding-top: 45px;
+    margin-left: 110px;
     flex-direction: row;
 }
 
 .socials img {
     height: 50px;
     width: 50px;
+}
+.productdetails{
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
