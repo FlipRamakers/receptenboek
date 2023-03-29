@@ -5,7 +5,14 @@ $sql1 = "SELECT * FROM Gerecht WHERE aantal_ingredienten = (SELECT MAX(aantal_in
 $result1 = mysqli_query($conn, $sql1);
 $recept1 = mysqli_fetch_assoc($result1);
 
-$sql2 = "SELECT * FROM Maleisische WHERE tijdsduur = (SELECT MAX(tijdsduur) FROM Maleisische);";
+$sql2 = "SELECT * FROM Gerecht WHERE tijdsduur = (SELECT MAX(tijdsduur) FROM Gerecht);";
+$result2 = mysqli_query($conn, $sql2);
+$recept2 = mysqli_fetch_assoc($result2);
+
+$sql3 = "SELECT * FROM Gerecht  WHERE tijdsduur = (SELECT MIN(moeilijkheidsgraad) FROM Gerecht);";
+$result3 = mysqli_query($conn, $sql3);
+$recept3 = mysqli_fetch_assoc($result3);
+
 
 ?>
 
