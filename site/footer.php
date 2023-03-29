@@ -11,10 +11,14 @@
 <body>
     <div class="footer">
         <div class="footernaam">
-            <h2><li>Flip Ramakers</li></h2>
-            <h3><li>klas: SD1A2</li></h3>
+            <h2>
+                <li>Flip Ramakers</li>
+            </h2>
+            <h3>
+                <li>klas: SD1A2</li>
+            </h3>
         </div>
-        
+
         <div class="fotofooter">
             <img src="images/filipijnsevlag.png">
         </div>
@@ -25,7 +29,7 @@
             <li><a href="https://www.snapchat.com/add/flipramakers?share_id=RhqomFwiTcyaRe7B/Efj7A&locale=nl_NL "><img src="images/snapchatzwart1.png"></a></li>
             <li><a href="https://www.snapchat.com/add/flipramakers?share_id=RhqomFwiTcyaRe7B/Efj7A&locale=nl_NL ">flipramakers</a></li>
         </div>
-        
+
     </div>
 </body>
 

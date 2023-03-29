@@ -34,7 +34,7 @@ $recept = mysqli_fetch_assoc($result);
         </p>
         <img src="images/<?php echo $recept["foto"] ?>" class="fotovaneten">
         <p>
-            <?php echo $recept["duur"] ?>
+            <?php echo $recept["duur"] ?> minuten
         </p>
         <p>
             moeilijkheidsgraad = <?php echo $recept["moeilijkheidsgraad"] ?>

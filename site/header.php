@@ -19,7 +19,7 @@ $all_products = mysqli_fetch_all($result, MYSQLI_ASSOC);
     <link rel="stylesheet" href="css/style.css?v=<?php echo time(); ?>">
     <title>header</title>
 </head>
- 
+
 <body>
     <header>
         <div class="bovenkant">
@@ -27,7 +27,7 @@ $all_products = mysqli_fetch_all($result, MYSQLI_ASSOC);
                 <img src="images/filipijnsevlag.png">
             </div>
             <div class="filipijnen">
-                <h1 style="font-size: 60px;">   filipijnse recepten   </h1>
+                <h1 style="font-size: 60px;"> filipijnse recepten </h1>
             </div>
             <div>
                 <img src="images/filipijnsevlag.png">
