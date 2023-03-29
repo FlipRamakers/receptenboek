@@ -35,13 +35,13 @@ $recept3 = mysqli_fetch_assoc($result3);
         <div class="container">
             <div>
                 <div class="lijst_onderelkaar">
-                    <h1>recept met de meeste ingredienten</h1>
+                    <h1>recept met de meeste ingrediënten</h1>
                     <div class="row">
                         <div class="niks">
                             <div>
                                 <ul>
                                     <li> <?php echo $recept1["titel"] ?></li>
-                                    <li> <?php echo $recept1["aantal_ingredienten"] ?> aantal ingredienten</li>
+                                    <li>  , aantal ingrediënten <?php echo $recept1["aantal_ingredienten"] ?> </li>
                                 </ul>
                             </div>
                         </div>
