@@ -41,15 +41,17 @@ $recept3 = mysqli_fetch_assoc($result3);
                         <div class="niks">
                             <div>
                                 <ul>
+                                    <div class="titelaanpassen">
                                     <li> <?php echo $recept1["titel"] ?></li>
-                                    <li> , aantal ingrediënten <?php echo $recept1["aantal_ingredienten"] ?> </li>
+                                </div>
+                                    <div class="img_specials">
+                                        <img src="images<?php echo $recept1["foto"] ?>">
+                                    </div>
+                                    <li> Aantal ingrediënten <?php echo $recept1["aantal_ingredienten"] ?> </li>
                                 </ul>
                             </div>
                         </div>
                         <div class="naareind">
-                            <div class="img_specials">
-                                <img src="images<?php echo $recept1["foto"] ?>">
-                            </div>
                         </div>
                     </div>
                 </div>
@@ -77,7 +79,7 @@ $recept3 = mysqli_fetch_assoc($result3);
                         <div class="niks">
                             <ul>
                                 <li> <?php echo $recept3["titel"] ?></li>
-                                <li> , moeilijkheidsgraad <?php echo $recept3["moeilijkheidsgraad"] ?> </li>
+                                <li> Moeilijkheidsgraad <?php echo $recept3["moeilijkheidsgraad"] ?> </li>
                             </ul>
                         </div>
                         <div class="naareind">
